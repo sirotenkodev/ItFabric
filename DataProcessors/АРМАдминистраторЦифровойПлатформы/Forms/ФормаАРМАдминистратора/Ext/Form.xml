@@ -1,0 +1,637 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Колонки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Колонки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Колонки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="КолонкиРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<UsualGroup name="Классификаторы" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Классификаторы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Классификаторы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="КлассификаторыРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<Table name="СписокПрофессии" id="5">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>СписокПрофессии</DataPath>
+							<RowPictureDataPath>СписокПрофессии.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="СписокПрофессииКонтекстноеМеню" id="6"/>
+							<AutoCommandBar name="СписокПрофессииКоманднаяПанель" id="7"/>
+							<ExtendedTooltip name="СписокПрофессииРасширеннаяПодсказка" id="8"/>
+							<SearchStringAddition name="СписокПрофессииСтрокаПоиска" id="9">
+								<AdditionSource>
+									<Item>СписокПрофессии</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокПрофессииСтрокаПоискаКонтекстноеМеню" id="10"/>
+								<ExtendedTooltip name="СписокПрофессииСтрокаПоискаРасширеннаяПодсказка" id="11"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокПрофессииСостояниеПросмотра" id="12">
+								<AdditionSource>
+									<Item>СписокПрофессии</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокПрофессииСостояниеПросмотраКонтекстноеМеню" id="13"/>
+								<ExtendedTooltip name="СписокПрофессииСостояниеПросмотраРасширеннаяПодсказка" id="14"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокПрофессииУправлениеПоиском" id="15">
+								<AdditionSource>
+									<Item>СписокПрофессии</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокПрофессииУправлениеПоискомКонтекстноеМеню" id="16"/>
+								<ExtendedTooltip name="СписокПрофессииУправлениеПоискомРасширеннаяПодсказка" id="17"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СписокПрофессииНаименование" id="18">
+									<DataPath>СписокПрофессии.Description</DataPath>
+									<ContextMenu name="СписокПрофессииНаименованиеКонтекстноеМеню" id="19"/>
+									<ExtendedTooltip name="СписокПрофессииНаименованиеРасширеннаяПодсказка" id="20"/>
+								</LabelField>
+								<LabelField name="СписокПрофессииКод" id="21">
+									<DataPath>СписокПрофессии.Code</DataPath>
+									<ContextMenu name="СписокПрофессииКодКонтекстноеМеню" id="22"/>
+									<ExtendedTooltip name="СписокПрофессииКодРасширеннаяПодсказка" id="23"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+						<Table name="СписокКомпетенции" id="24">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>СписокКомпетенции</DataPath>
+							<RowPictureDataPath>СписокКомпетенции.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="СписокКомпетенцииКонтекстноеМеню" id="25"/>
+							<AutoCommandBar name="СписокКомпетенцииКоманднаяПанель" id="26"/>
+							<ExtendedTooltip name="СписокКомпетенцииРасширеннаяПодсказка" id="27"/>
+							<SearchStringAddition name="СписокКомпетенцииСтрокаПоиска" id="28">
+								<AdditionSource>
+									<Item>СписокКомпетенции</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокКомпетенцииСтрокаПоискаКонтекстноеМеню" id="29"/>
+								<ExtendedTooltip name="СписокКомпетенцииСтрокаПоискаРасширеннаяПодсказка" id="30"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокКомпетенцииСостояниеПросмотра" id="31">
+								<AdditionSource>
+									<Item>СписокКомпетенции</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокКомпетенцииСостояниеПросмотраКонтекстноеМеню" id="32"/>
+								<ExtendedTooltip name="СписокКомпетенцииСостояниеПросмотраРасширеннаяПодсказка" id="33"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокКомпетенцииУправлениеПоиском" id="34">
+								<AdditionSource>
+									<Item>СписокКомпетенции</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокКомпетенцииУправлениеПоискомКонтекстноеМеню" id="35"/>
+								<ExtendedTooltip name="СписокКомпетенцииУправлениеПоискомРасширеннаяПодсказка" id="36"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СписокКомпетенцииНаименование" id="37">
+									<DataPath>СписокКомпетенции.Description</DataPath>
+									<ContextMenu name="СписокКомпетенцииНаименованиеКонтекстноеМеню" id="38"/>
+									<ExtendedTooltip name="СписокКомпетенцииНаименованиеРасширеннаяПодсказка" id="39"/>
+								</LabelField>
+								<LabelField name="СписокКомпетенцииКод" id="40">
+									<DataPath>СписокКомпетенции.Code</DataPath>
+									<ContextMenu name="СписокКомпетенцииКодКонтекстноеМеню" id="41"/>
+									<ExtendedTooltip name="СписокКомпетенцииКодРасширеннаяПодсказка" id="42"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+						<Table name="СписокНавыки" id="43">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>СписокНавыки</DataPath>
+							<RowPictureDataPath>СписокНавыки.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="СписокНавыкиКонтекстноеМеню" id="44"/>
+							<AutoCommandBar name="СписокНавыкиКоманднаяПанель" id="45"/>
+							<ExtendedTooltip name="СписокНавыкиРасширеннаяПодсказка" id="46"/>
+							<SearchStringAddition name="СписокНавыкиСтрокаПоиска" id="47">
+								<AdditionSource>
+									<Item>СписокНавыки</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокНавыкиСтрокаПоискаКонтекстноеМеню" id="48"/>
+								<ExtendedTooltip name="СписокНавыкиСтрокаПоискаРасширеннаяПодсказка" id="49"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокНавыкиСостояниеПросмотра" id="50">
+								<AdditionSource>
+									<Item>СписокНавыки</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокНавыкиСостояниеПросмотраКонтекстноеМеню" id="51"/>
+								<ExtendedTooltip name="СписокНавыкиСостояниеПросмотраРасширеннаяПодсказка" id="52"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокНавыкиУправлениеПоиском" id="53">
+								<AdditionSource>
+									<Item>СписокНавыки</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокНавыкиУправлениеПоискомКонтекстноеМеню" id="54"/>
+								<ExtendedTooltip name="СписокНавыкиУправлениеПоискомРасширеннаяПодсказка" id="55"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СписокНавыкиНаименование" id="56">
+									<DataPath>СписокНавыки.Description</DataPath>
+									<ContextMenu name="СписокНавыкиНаименованиеКонтекстноеМеню" id="57"/>
+									<ExtendedTooltip name="СписокНавыкиНаименованиеРасширеннаяПодсказка" id="58"/>
+								</LabelField>
+								<LabelField name="СписокНавыкиКод" id="59">
+									<DataPath>СписокНавыки.Code</DataPath>
+									<ContextMenu name="СписокНавыкиКодКонтекстноеМеню" id="60"/>
+									<ExtendedTooltip name="СписокНавыкиКодРасширеннаяПодсказка" id="61"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+						<Table name="СписокУровни" id="62">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>СписокУровни</DataPath>
+							<RowPictureDataPath>СписокУровни.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="СписокУровниКонтекстноеМеню" id="63"/>
+							<AutoCommandBar name="СписокУровниКоманднаяПанель" id="64"/>
+							<ExtendedTooltip name="СписокУровниРасширеннаяПодсказка" id="65"/>
+							<SearchStringAddition name="СписокУровниСтрокаПоиска" id="66">
+								<AdditionSource>
+									<Item>СписокУровни</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокУровниСтрокаПоискаКонтекстноеМеню" id="67"/>
+								<ExtendedTooltip name="СписокУровниСтрокаПоискаРасширеннаяПодсказка" id="68"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокУровниСостояниеПросмотра" id="69">
+								<AdditionSource>
+									<Item>СписокУровни</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокУровниСостояниеПросмотраКонтекстноеМеню" id="70"/>
+								<ExtendedTooltip name="СписокУровниСостояниеПросмотраРасширеннаяПодсказка" id="71"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокУровниУправлениеПоиском" id="72">
+								<AdditionSource>
+									<Item>СписокУровни</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокУровниУправлениеПоискомКонтекстноеМеню" id="73"/>
+								<ExtendedTooltip name="СписокУровниУправлениеПоискомРасширеннаяПодсказка" id="74"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СписокУровниНаименование" id="75">
+									<DataPath>СписокУровни.Description</DataPath>
+									<ContextMenu name="СписокУровниНаименованиеКонтекстноеМеню" id="76"/>
+									<ExtendedTooltip name="СписокУровниНаименованиеРасширеннаяПодсказка" id="77"/>
+								</LabelField>
+								<LabelField name="СписокУровниКод" id="78">
+									<DataPath>СписокУровни.Code</DataPath>
+									<ContextMenu name="СписокУровниКодКонтекстноеМеню" id="79"/>
+									<ExtendedTooltip name="СписокУровниКодРасширеннаяПодсказка" id="80"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Специалисты" id="81">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Специалисты</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Специалисты</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="СпециалистыРасширеннаяПодсказка" id="82"/>
+					<ChildItems>
+						<Table name="Специалисты1" id="83">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>Специалисты</DataPath>
+							<RowPictureDataPath>Специалисты.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="Специалисты1КонтекстноеМеню" id="84"/>
+							<AutoCommandBar name="Специалисты1КоманднаяПанель" id="85"/>
+							<ExtendedTooltip name="Специалисты1РасширеннаяПодсказка" id="86"/>
+							<SearchStringAddition name="Специалисты1СтрокаПоиска" id="87">
+								<AdditionSource>
+									<Item>Специалисты1</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="Специалисты1СтрокаПоискаКонтекстноеМеню" id="88"/>
+								<ExtendedTooltip name="Специалисты1СтрокаПоискаРасширеннаяПодсказка" id="89"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="Специалисты1СостояниеПросмотра" id="90">
+								<AdditionSource>
+									<Item>Специалисты1</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="Специалисты1СостояниеПросмотраКонтекстноеМеню" id="91"/>
+								<ExtendedTooltip name="Специалисты1СостояниеПросмотраРасширеннаяПодсказка" id="92"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="Специалисты1УправлениеПоиском" id="93">
+								<AdditionSource>
+									<Item>Специалисты1</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="Специалисты1УправлениеПоискомКонтекстноеМеню" id="94"/>
+								<ExtendedTooltip name="Специалисты1УправлениеПоискомРасширеннаяПодсказка" id="95"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="Специалисты1Наименование" id="96">
+									<DataPath>Специалисты.Description</DataPath>
+									<ContextMenu name="Специалисты1НаименованиеКонтекстноеМеню" id="97"/>
+									<ExtendedTooltip name="Специалисты1НаименованиеРасширеннаяПодсказка" id="98"/>
+								</LabelField>
+								<LabelField name="Специалисты1Код" id="99">
+									<DataPath>Специалисты.Code</DataPath>
+									<ContextMenu name="Специалисты1КодКонтекстноеМеню" id="100"/>
+									<ExtendedTooltip name="Специалисты1КодРасширеннаяПодсказка" id="101"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Аукционы" id="102">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Аукционы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Аукционы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="АукционыРасширеннаяПодсказка" id="103"/>
+					<ChildItems>
+						<Table name="Аукционы1" id="104">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>Аукционы</DataPath>
+							<RowPictureDataPath>Аукционы.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="Аукционы1КонтекстноеМеню" id="105"/>
+							<AutoCommandBar name="Аукционы1КоманднаяПанель" id="106"/>
+							<ExtendedTooltip name="Аукционы1РасширеннаяПодсказка" id="107"/>
+							<SearchStringAddition name="Аукционы1СтрокаПоиска" id="108">
+								<AdditionSource>
+									<Item>Аукционы1</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="Аукционы1СтрокаПоискаКонтекстноеМеню" id="109"/>
+								<ExtendedTooltip name="Аукционы1СтрокаПоискаРасширеннаяПодсказка" id="110"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="Аукционы1СостояниеПросмотра" id="111">
+								<AdditionSource>
+									<Item>Аукционы1</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="Аукционы1СостояниеПросмотраКонтекстноеМеню" id="112"/>
+								<ExtendedTooltip name="Аукционы1СостояниеПросмотраРасширеннаяПодсказка" id="113"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="Аукционы1УправлениеПоиском" id="114">
+								<AdditionSource>
+									<Item>Аукционы1</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="Аукционы1УправлениеПоискомКонтекстноеМеню" id="115"/>
+								<ExtendedTooltip name="Аукционы1УправлениеПоискомРасширеннаяПодсказка" id="116"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="Аукционы1Наименование" id="117">
+									<DataPath>Аукционы.Description</DataPath>
+									<ContextMenu name="Аукционы1НаименованиеКонтекстноеМеню" id="118"/>
+									<ExtendedTooltip name="Аукционы1НаименованиеРасширеннаяПодсказка" id="119"/>
+								</LabelField>
+								<LabelField name="Аукционы1Код" id="120">
+									<DataPath>Аукционы.Code</DataPath>
+									<ContextMenu name="Аукционы1КодКонтекстноеМеню" id="121"/>
+									<ExtendedTooltip name="Аукционы1КодРасширеннаяПодсказка" id="122"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.АРМАдминистраторЦифровойПлатформы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="СписокПрофессии" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список профессии</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Catalog.ЦифровыеПрофессии</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="СписокКомпетенции" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список компетенции</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Catalog.ЦифровыеКомпетенции</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="СписокНавыки" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список навыки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Catalog.ЦифровыеНавыки</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="СписокУровни" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список уровни</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Catalog.УровниЦифровыхПрофесий</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="Специалисты" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список уровни</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Catalog.Специалисты</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="Аукционы" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список уровни</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Catalog.Аукционы</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+</Form>

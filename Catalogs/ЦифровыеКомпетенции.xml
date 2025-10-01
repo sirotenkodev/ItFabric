@@ -62,7 +62,7 @@
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm/>
 			<DefaultFolderForm/>
-			<DefaultListForm/>
+			<DefaultListForm>Catalog.ЦифровыеКомпетенции.Form.ФормаСпискаКомпетенции</DefaultListForm>
 			<DefaultChoiceForm/>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -365,11 +365,11 @@
 					</Attribute>
 					<Attribute uuid="5a359e28-7f85-416b-a376-5404a19552a0">
 						<Properties>
-							<Name>ФормированиеНавыка</Name>
+							<Name>ФормированиеКомпетенции</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Формирование навыка</v8:content>
+									<v8:content>Формирование компетенции</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -447,6 +447,7 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<Form>ФормаСпискаКомпетенции</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

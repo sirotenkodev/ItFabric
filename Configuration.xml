@@ -254,6 +254,9 @@
 			<Catalog>ЦифровыеКомпетенции</Catalog>
 			<Catalog>ЦифровыеНавыки</Catalog>
 			<Catalog>УровниЦифровыхПрофесий</Catalog>
+			<Catalog>Специалисты</Catalog>
+			<Catalog>Аукционы</Catalog>
+			<DataProcessor>АРМАдминистраторЦифровойПлатформы</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
