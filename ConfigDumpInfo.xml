@@ -2,7 +2,17 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
 		<Metadata name="Catalog.УровниЦифровыхПрофесий" id="2396af68-2cab-4d8c-8641-20b7ac4583b5" configVersion="93990cf92cb7b54caa621ad3479c648500000000"/>
-		<Metadata name="Catalog.ЦифровыеКомпетенции" id="792e5bff-4596-4c9c-8d13-9b758d7fdbba" configVersion="b84698cc5f41aa4a99b5c4be24198b5d00000000"/>
+		<Metadata name="Catalog.ЦифровыеКомпетенции" id="792e5bff-4596-4c9c-8d13-9b758d7fdbba" configVersion="cef3a7b092ba47439258dd2f5233c9b700000000">
+			<Metadata name="Catalog.ЦифровыеКомпетенции.TabularSection.ДопРеквизиты.Attribute.ОписаниеКомпетенции" id="04f3b0ab-e97e-4598-83a0-15d47c9c1bda"/>
+			<Metadata name="Catalog.ЦифровыеКомпетенции.TabularSection.ЦифровыеНавыки" id="1947b5ad-8210-4329-97dc-f8a840849018"/>
+			<Metadata name="Catalog.ЦифровыеКомпетенции.TabularSection.ДопРеквизиты.Attribute.УровеньКомпетенции" id="59b8ac3e-2620-44bb-9e71-ed8b626ca019"/>
+			<Metadata name="Catalog.ЦифровыеКомпетенции.TabularSection.ДопРеквизиты.Attribute.ФормированиеНавыка" id="5a359e28-7f85-416b-a376-5404a19552a0"/>
+			<Metadata name="Catalog.ЦифровыеКомпетенции.TabularSection.ЦифровыеНавыки.Attribute.Навык" id="822c074b-321e-476c-9ec6-8f0022c3f655"/>
+			<Metadata name="Catalog.ЦифровыеКомпетенции.TabularSection.ДопРеквизиты.Attribute.Комментарии" id="894750d4-2d30-432e-bcab-26a1cac91342"/>
+			<Metadata name="Catalog.ЦифровыеКомпетенции.TabularSection.ЦифровыеНавыки.Attribute.УровеньНавыка" id="c88259d4-8cf3-4e6b-945d-6161c4b2ac30"/>
+			<Metadata name="Catalog.ЦифровыеКомпетенции.TabularSection.ДопРеквизиты" id="d23ab57d-ad64-4c61-93a1-bd669b97a6b3"/>
+			<Metadata name="Catalog.ЦифровыеКомпетенции.TabularSection.ЦифровыеНавыки.Attribute.Коммментарий" id="d3507626-1aa5-486a-8b2b-c8413b38946e"/>
+		</Metadata>
 		<Metadata name="Catalog.ЦифровыеНавыки" id="b1861031-61d1-4681-9162-fda3ba7e6a8d" configVersion="81e9ba858d5db34eb853ff97aec8315800000000"/>
 		<Metadata name="Catalog.ЦифровыеПрофессии" id="85e48b9d-8bb7-48f1-a5d0-d389c979cc1e" configVersion="605e5b66147bd84fb670fa4ecc5b1f5f00000000">
 			<Metadata name="Catalog.ЦифровыеПрофессии.TabularSection.ЦифровыеКомпетенции.Attribute.УровеньКомпетенции" id="44c78679-5985-47eb-8d79-8734e9c7b3ef"/>
