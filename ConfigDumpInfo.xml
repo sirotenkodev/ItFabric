@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.УровниЦифровыхПрофесий" id="2396af68-2cab-4d8c-8641-20b7ac4583b5" configVersion="93990cf92cb7b54caa621ad3479c648500000000"/>
+		<Metadata name="Catalog.ЦифровыеКомпетенции" id="792e5bff-4596-4c9c-8d13-9b758d7fdbba" configVersion="b84698cc5f41aa4a99b5c4be24198b5d00000000"/>
+		<Metadata name="Catalog.ЦифровыеНавыки" id="b1861031-61d1-4681-9162-fda3ba7e6a8d" configVersion="81e9ba858d5db34eb853ff97aec8315800000000"/>
+		<Metadata name="Catalog.ЦифровыеПрофессии" id="85e48b9d-8bb7-48f1-a5d0-d389c979cc1e" configVersion="605e5b66147bd84fb670fa4ecc5b1f5f00000000">
+			<Metadata name="Catalog.ЦифровыеПрофессии.TabularSection.ЦифровыеКомпетенции.Attribute.УровеньКомпетенции" id="44c78679-5985-47eb-8d79-8734e9c7b3ef"/>
+			<Metadata name="Catalog.ЦифровыеПрофессии.TabularSection.ДопРеквизиты.Attribute.ФормированиеПрофессии" id="48ff0f2d-a62f-4396-a087-7b738359e20b"/>
+			<Metadata name="Catalog.ЦифровыеПрофессии.TabularSection.ДопРеквизиты.Attribute.УровеньПрофессии" id="58ad3eb5-2c5e-446c-9c41-b121ddd7297f"/>
+			<Metadata name="Catalog.ЦифровыеПрофессии.TabularSection.ЦифровыеКомпетенции.Attribute.Комментарий" id="6b086ea0-76a8-4b88-98bc-e73cfc01d4b3"/>
+			<Metadata name="Catalog.ЦифровыеПрофессии.TabularSection.ДопРеквизиты.Attribute.Комментарии" id="a5fa0062-10f0-4254-990a-2c2dd08665fd"/>
+			<Metadata name="Catalog.ЦифровыеПрофессии.TabularSection.ЦифровыеКомпетенции.Attribute.Компетенция" id="c8ac9aba-8322-41b1-8cfe-9a06875fada0"/>
+			<Metadata name="Catalog.ЦифровыеПрофессии.TabularSection.ЦифровыеКомпетенции" id="ce1b83cf-7a04-4b3d-a1c7-7814a1896de2"/>
+			<Metadata name="Catalog.ЦифровыеПрофессии.TabularSection.ДопРеквизиты.Attribute.ОписаниеПрофессии" id="e02b746c-327d-4ceb-9cb2-a91d88606f37"/>
+			<Metadata name="Catalog.ЦифровыеПрофессии.TabularSection.ДопРеквизиты" id="f41d97e9-4a05-4419-8116-2516792a8bf1"/>
+		</Metadata>
+		<Metadata name="Configuration.АрмАдминистратораЦифровойПлатформы" id="bc6252d0-df66-4363-851a-bcd27cb594a0" configVersion="5447e24fd47b6b43a38d3ae14bf5335600000000"/>
+		<Metadata name="Language.Русский" id="008e3bd4-5ad2-4a4f-ae9f-c6a7feae6f48" configVersion="b05a8b571f64564782decf073a04ff6200000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
