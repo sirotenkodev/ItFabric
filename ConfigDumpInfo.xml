@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
-		<Metadata name="Catalog.Аукционы" id="0af488c2-7c8e-4045-b3d1-a29f6497698d" configVersion="49b593e8b879564e8b51706a2dfae87900000000"/>
-		<Metadata name="Catalog.Специалисты" id="b8644d08-9f2f-45d4-a8f2-6c0171b056b1" configVersion="1abf1197f066704381258587a7e2de8900000000"/>
+		<Metadata name="Catalog.Аукционы" id="0af488c2-7c8e-4045-b3d1-a29f6497698d" configVersion="dec799abc7b6654da77b4d29005e881000000000"/>
+		<Metadata name="Catalog.Специалисты" id="b8644d08-9f2f-45d4-a8f2-6c0171b056b1" configVersion="8cb89682ee3e2041a4733b1d487f794e00000000"/>
 		<Metadata name="Catalog.УровниЦифровыхПрофесий" id="2396af68-2cab-4d8c-8641-20b7ac4583b5" configVersion="93990cf92cb7b54caa621ad3479c648500000000"/>
 		<Metadata name="Catalog.ЦифровыеКомпетенции" id="792e5bff-4596-4c9c-8d13-9b758d7fdbba" configVersion="a16ec9372060464a9b6cfba5775b5e3900000000">
 			<Metadata name="Catalog.ЦифровыеКомпетенции.TabularSection.ДопРеквизиты.Attribute.ОписаниеКомпетенции" id="04f3b0ab-e97e-4598-83a0-15d47c9c1bda"/>
@@ -39,8 +39,11 @@
 		</Metadata>
 		<Metadata name="Catalog.ЦифровыеПрофессии.Form.ФормаСпискаПрофессии" id="99d43014-9378-4bb1-90c0-e4334a8195e2" configVersion="caf6e9c60bf6bb4daf6d5f7741a98c0a00000000"/>
 		<Metadata name="Catalog.ЦифровыеПрофессии.Form.ФормаСпискаПрофессии.Form" id="99d43014-9378-4bb1-90c0-e4334a8195e2.0" configVersion="67e015ddc82c78438fff6d639367287500000000"/>
-		<Metadata name="Configuration.АрмАдминистратораЦифровойПлатформы" id="bc6252d0-df66-4363-851a-bcd27cb594a0" configVersion="a8fa2e2004e2fb459db8bc2f5889086600000000"/>
+		<Metadata name="CommonModule.ОбщийМодульИнтерфейс" id="340de6e5-119a-45f0-a844-b864eb5f6f7b" configVersion="7d5547a1b6345f4594e7d8af0cdbb72c00000000"/>
+		<Metadata name="CommonModule.ОбщийМодульИнтерфейс.Module" id="340de6e5-119a-45f0-a844-b864eb5f6f7b.0" configVersion="d4ef3654b2bf414280485366c48c0c3c00000000"/>
+		<Metadata name="Configuration.АрмАдминистратораЦифровойПлатформы" id="bc6252d0-df66-4363-851a-bcd27cb594a0" configVersion="105056ae90aa0f43a867c6a7a3f8dfe000000000"/>
 		<Metadata name="Configuration.АрмАдминистратораЦифровойПлатформы.HomePageWorkArea" id="f99a799a-e60c-4958-a0aa-267fc416db79.8" configVersion="11a121c057ea8d4a9a17f857c27f968200000000"/>
+		<Metadata name="Configuration.АрмАдминистратораЦифровойПлатформы.ManagedApplicationModule" id="f99a799a-e60c-4958-a0aa-267fc416db79.6" configVersion="c4789d231a82a2409e99c9428663b57400000000"/>
 		<Metadata name="DataProcessor.АРМАдминистраторЦифровойПлатформы" id="51bcd2c4-e0cf-469b-a8d2-93e03cb18c87" configVersion="af08b33e67f33e48ab6a158828cd915e00000000"/>
 		<Metadata name="DataProcessor.АРМАдминистраторЦифровойПлатформы.Form.ФормаАРМАдминистратора" id="38e2f75d-40ca-4731-92ff-8519c96a2e6e" configVersion="9f79b6e6c0c9df43a59e6aff69dcb18900000000"/>
 		<Metadata name="DataProcessor.АРМАдминистраторЦифровойПлатформы.Form.ФормаАРМАдминистратора.Form" id="38e2f75d-40ca-4731-92ff-8519c96a2e6e.0" configVersion="fa0f89337115844fa1d3dda87e62dd4200000000"/>

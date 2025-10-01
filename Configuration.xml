@@ -250,6 +250,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonModule>ОбщийМодульИнтерфейс</CommonModule>
 			<Catalog>ЦифровыеПрофессии</Catalog>
 			<Catalog>ЦифровыеКомпетенции</Catalog>
 			<Catalog>ЦифровыеНавыки</Catalog>
